@@ -15,8 +15,8 @@ public class ValidateClient {
     @Autowired
     private ValidateFeignClient validateFeignClient;
 
-    public String printStr(String sout) {
-        String printStr = validateFeignClient.printStr(sout);
+    public String printStr() {
+        String printStr = validateFeignClient.printStr();
         return printStr;
     }
 }

@@ -1,9 +1,7 @@
 package com.example.feign.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.annotation.Resource;
 
 
 /**
@@ -14,11 +12,11 @@ import javax.annotation.Resource;
 @RestController
 public class XxxController {
 
-    @GetMapping("test")
-    public String printStr(String sout) {
+    @PostMapping("/test")
+    public String printStr() {
 
-        System.out.println(sout);
+        System.out.println("post only");
 
-        return sout;
+        return "post only";
     }
 }
