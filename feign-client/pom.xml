@@ -18,6 +18,11 @@
             <artifactId>spring-cloud-openfeign-core</artifactId>
             <version>2.2.0.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>com.example.feign</groupId>
+            <artifactId>feign-common</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>

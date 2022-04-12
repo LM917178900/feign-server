@@ -55,7 +55,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>com.example.feign</groupId>
+            <artifactId>feign-common</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -18,6 +18,7 @@
     <modules>
         <module>feign-core</module>
         <module>feign-client</module>
+        <module>feign-common</module>
     </modules>
 
     <properties>
