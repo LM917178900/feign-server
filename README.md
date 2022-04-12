@@ -42,5 +42,6 @@ spring boot 版本也使用
 6. url 命名需要如此
 url = "${metadata.service.url}"
 
-
+7. post api 无法传 json 
+重写序列、反序列方法 WebMvcConfigurer
 
