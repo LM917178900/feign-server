@@ -45,3 +45,12 @@ url = "${metadata.service.url}"
 7. post api 无法传 json 
 重写序列、反序列方法 WebMvcConfigurer
 
+8.新增模块install 失败
+repackage failed: Unable to find main class
+去除打包插件 spring-boot-maven-plugin
+
+9. feign 调用返回字符串有转义符；
+实例：http://localhost:8083/consumer/get?label=hello,who are you
+返回： "\"hello,who are you:,i am leimin\""
+
+
